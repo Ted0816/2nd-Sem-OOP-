@@ -55,7 +55,8 @@ public class MainFrame extends javax.swing.JFrame {
                 {"1", "Fries", "59.00"},
                 {"2", "Mango Shake", "50.00"},
                 {"3", "Sisig", "99.00"},
-                {"4", "Burger Stake", "139.00"}
+                {"4", "Burger Stake", "139.00"},
+                {"5", "Burger Plus", "120.00"}
             },
             new String [] {
                 "ID", "Name", "Price"
@@ -106,9 +107,9 @@ public class MainFrame extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(16, 16, 16)
                 .addComponent(ProceedButton, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
